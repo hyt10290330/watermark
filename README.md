@@ -57,3 +57,7 @@ export interface Option {
 | logoImgSrc    | When logoPatternshi is a image mode, logo will render according to Picture URL             | string         | ''               | none                                 |
 | isShowLogo    | Whether to display logo                                                                    | Boolean        | true             | none                                 |
 | isShowImprint | Whether to display imprint                                                                 | Boolean        | true             | none                                 |
+
+## Component Images
+
+![Image text](https://github.com/hyt10290330/watermark/blob/master/image/1.png)
