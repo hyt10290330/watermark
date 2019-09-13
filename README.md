@@ -23,6 +23,37 @@ const wm = new watermark({
 
 ## Installation
 
-`npm install canvas-watermark`
+`npm install @hythandsome/canvaswatermark`
 
 ## API Documentation
+
+```
+export enum LogoPattern {
+  Text = 'text',
+  Image = 'image',
+}
+
+export interface Option {
+  el: string | Element
+  imprintText: string
+  imprintAngle: number
+  logoPattern: LogoPattern
+  logoText: string
+  logoImgSrc: string
+  isShowLogo: Boolean
+  isShowImprint: Boolean
+}
+
+
+```
+
+| field         | Explain                                                                                    | Type           | Default value    | Optional value                       |
+| ------------- | ------------------------------------------------------------------------------------------ | -------------- | ---------------- | ------------------------------------ |
+| el            | Container element                                                                          | string/Element | ''               | none                                 |
+| imprintText   | Watermark text                                                                             | string         | ''               | none                                 |
+| imprintAngle  | Tilt angle of watermarking distance in horizontal direction                                | number         | -Math.PI / 12    | none                                 |
+| logoPattern   | Rendering logo adoption mode                                                               | LogoPattern    | LogoPattern.Text | LogoPattern.Text / LogoPattern.Image |
+| logoText      | When logoPatternshi is a text mode, logo will render according to the content of the text. | string         | ''               | none                                 |
+| logoImgSrc    | When logoPatternshi is a image mode, logo will render according to Picture URL             | string         | ''               | none                                 |
+| isShowLogo    | Whether to display logo                                                                    | Boolean        | true             | none                                 |
+| isShowImprint | Whether to display imprint                                                                 | Boolean        | true             | none                                 |
