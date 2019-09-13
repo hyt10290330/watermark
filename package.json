@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "gogs@git.yunkai.com:Component/watermark.git"
+    "url": "git@github.com:hyt10290330/watermark.git"
   },
   "author": "hythandsome",
   "license": "ISC",
