@@ -23,6 +23,6 @@ const wm = new watermark({
 
 ## Installation
 
-`npm install watermark`
+`npm install canvas-watermark`
 
 ## API Documentation
